@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+#Alexa Skill files
+skill-package/node_modules
+skill-package/package-lock.json
+ask_tmp.zip
