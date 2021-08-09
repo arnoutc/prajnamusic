@@ -1,0 +1,104 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Mira Manek\u0027s Prajna Yoga audio streaming skill.",
+          "examplePhrases": [
+            "Alexa, open prajna music",
+            "Alexa, ask prajna music to begin playlist",
+            "Alexa, ask prajna music to play"
+          ],
+          "keywords": [
+            "streaming",
+            "music",
+            "prajna",
+            "yoga"
+          ],
+          "name": "Prajna Music",
+          "description": "See Mira Manek\u0027s Wonderful morning Yoga Play List in her book https://miramanek.com/book.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-IN": {
+          "summary": "Mira Manek\u0027s Prajna Yoga Music skill.",
+          "examplePhrases": [
+            "Alexa, open prajna music",
+            "Alexa, ask prajna music to begin playlist",
+            "Alexa, ask prajna music to play"
+          ],
+          "keywords": [
+            "streaming",
+            "music",
+            "prajna",
+            "yoga"
+          ],
+          "name": "Prajna Music",
+          "description": "See Mira Manek\u0027s Wonderful morning Yoga Play List in her book https://miramanek.com/book.",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "Mira Manek\u0027s Prajna Yoga audio streaming skill.",
+          "examplePhrases": [
+            "Alexa, open prajna music",
+            "Alexa, ask prajna music to begin playlist",
+            "Alexa, ask prajna music to play"
+          ],
+          "keywords": [
+            "streaming",
+            "music",
+            "prajna",
+            "yoga"
+          ],
+          "name": "Prajna Music",
+          "description": "See Mira Manek\u0027s Wonderful morning Yoga Play List in her book https://miramanek.com/book.",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Include your testing instruction (if any) here",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:009831754594:function:ask-custom-Multi_Stream_Audio_Player-prajna"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          },
+          {
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://www.catorarn.com/terms",
+          "privacyPolicyUrl": "https://www.catorarn.com/privacy"
+        },
+        "en-IN": {
+          "termsOfUseUrl": "https://www.catorarn.com/terms",
+          "privacyPolicyUrl": "https://www.catorarn.com/privacy"
+        },
+        "en-GB": {
+          "termsOfUseUrl": "https://www.catorarn.com/terms",
+          "privacyPolicyUrl": "https://www.catorarn.com/privacy"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
